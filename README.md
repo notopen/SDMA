@@ -30,7 +30,7 @@ The [example workload](Example/workload.csv) contains 80 instances drawn uniform
 
 | Input | Format |
 | --- | --- |
-| Calibration | IBM's per-qubit CSV export. The example uses the 2026-11-13 14:57:10 UTC Kingston snapshot. Gate errors are probabilities; gate and readout durations are in ns and coherence times are in us. Missing values are not filled from another snapshot. |
+| Calibration | IBM's per-qubit CSV export. The example uses the 2026-11-13 14:57:10 UTC Kingston snapshot. Gate errors are probabilities; gate and readout durations are in ns and coherence times are in us. Missing values are not filled from another snapshot. The calibration data can be download from https://quantum.cloud.ibm.com/computers |
 | Separation policy | CSV, first three columns: depth bin, minimum horizontal gap and minimum vertical gap, in grid pitches. A bin can be an integer or a range such as `2-3`. An absent bin means the pair cannot share a page. See [policy.csv](Example/policy.csv). |
 | Rounding threshold | `SEPARATE_VALUE` in [0, 1]. For routed depths with ratio `r = max(depths) / min(depths)`, the bin is `floor(r + 1 - s)`. At `s=0.5`, exactly 1.5 enters bin 2; exactly 6.5 falls outside the supplied table. |
 | Circuits | A folder of OpenQASM 2 (`.qasm`) or single-circuit Qiskit (`.qpy`) files with bound parameters. The workload CSV lists `path,times`; paths are relative to `CIRCUIT_DIR` and times is a positive copy count. |
