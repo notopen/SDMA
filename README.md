@@ -24,7 +24,14 @@ jupyter notebook Config.ipynb
 
 [circuits/](circuits/) contains the paper's 36 QASMBench benchmarks plus `cat_state_n22` and `ghz_state_n23`. 
 
-The [example workload](Example/workload.csv) contains 80 instances drawn uniformly with replacement from the 38 sorted filenames using Python's `random.Random(42).choices`. It includes 34 distinct circuits; the `times` column counts copies. At `s=0.5` and optimization level `2`, the [layout PDF](Example/output/layout.pdf) has **8 pages**, with 4, 6, 8, 7, 14, 16, 17 and 8 instances. Its [Execute notebook](Example/output/Execute.ipynb) is ready to use. To run a different workload, list its filenames and copy counts in your own `path,times` CSV and select it with `WORKLOAD_CSV` in Config.
+The [example workload](Example/workload.csv) lists 19 circuits. Each was assigned one to four copies in a one-time random draw, for **52 circuit instances**. Config reads the saved counts without resampling. To run your own workload, list its filenames and copy counts in a `path,times` CSV and set `WORKLOAD_CSV` to that file.
+
+Running [Config.ipynb](Config.ipynb) with the supplied Kingston calibration, `s=0.5` and optimization level `2` produced the [layout PDF](Example/output/layout.pdf) and [Execute notebook](Example/output/Execute.ipynb). The placement program printed:
+
+```text
+52 circuit instances on 5 pages
+Instances per page: 5, 3, 11, 20, 13
+```
 
 ## Inputs
 
@@ -38,7 +45,7 @@ The [example workload](Example/workload.csv) contains 80 instances drawn uniform
 
 ## Placement
 
-Set `OPTIMIZATION_LEVEL` (0 through 3, default **2**), `ROUTING_METHOD` (default `sabre`) and `TRANSPILER_SEED` (default `20260928`) in Config. Rerun the SDMA cell after a change: it recompiles the inputs before packing and generating the PDF and Execute notebook. Experiments with different settings can share the same workload CSV. If needed, set `INIT_QUBITS`, `REP_DELAY_SECONDS`, or `MAX_EXECUTION_TIME_SECONDS` in Config; `None` leaves the corresponding IBM Runtime default unset. Dynamical decoupling and twirling are fixed off.
+Set `OPTIMIZATION_LEVEL` (0 through 3, default **2**), `ROUTING_METHOD` (default `sabre`) and `TRANSPILER_SEED` (default `20260928`) in Config. `PLACEMENT_SEED` (default `42`) controls the order in which the packer tries the supplied instances. Rerun the SDMA cell after a change: it recompiles the inputs before packing and generating the PDF and Execute notebook. Experiments with different settings can share the same workload CSV. If needed, set `INIT_QUBITS`, `REP_DELAY_SECONDS`, or `MAX_EXECUTION_TIME_SECONDS` in Config; `None` leaves the corresponding IBM Runtime default unset. Dynamical decoupling and twirling are fixed off.
 
 For each width SDMA considers up to two compact connected templates, then enumerates translations, rotations and reflections that preserve their couplings. SDMA admits placements using the error limits: SX/X at most 0.01, CZ at most 0.05, and readout/reset at most 0.10; virtual RZ has zero error. It scores admitted placements using gate/readout errors and idle time relative to coherence.
 

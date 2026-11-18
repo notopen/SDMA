@@ -121,6 +121,7 @@ def allocate(*, calibration=CALIBRATION, policy=EXAMPLE / "policy.csv",
     write_notebook(dest / "Execute.ipynb")
     (dest / "fetched_results").mkdir(exist_ok=True)
     print(f"{len(requests)} circuit instances on {len(pages)} page{'s' if len(pages) != 1 else ''}")
+    print("Instances per page:", ", ".join(str(len(page)) for page in pages))
     print(dest / "layout.pdf")
     print(dest / "Execute.ipynb")
     return dest

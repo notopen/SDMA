@@ -47,100 +47,196 @@
       "circuit": "../../compiled_circuits/Example/page_001.qpy",
       "workloads": [
         {
-          "register": "w0055",
-          "circuit": "vqe_uccsd_n8.qasm",
+          "register": "w0041",
+          "circuit": "qf21_n15.qasm",
           "qubits": [
-            127,
-            126,
-            125,
-            124,
-            117,
-            106,
-            105,
-            104
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            56,
+            57,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
           ],
           "active_qubits": [
-            127,
-            126,
-            125,
-            124,
-            117,
-            106,
-            105,
-            104
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            56,
+            57,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
           ],
-          "isa_depth": 21120,
-          "classical_bits": 8
+          "isa_depth": 716,
+          "classical_bits": 10
         },
         {
-          "register": "w0056",
-          "circuit": "vqe_uccsd_n8.qasm",
+          "register": "w0042",
+          "circuit": "qf21_n15.qasm",
           "qubits": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            16,
+            17,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "active_qubits": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            16,
+            17,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "isa_depth": 716,
+          "classical_bits": 10
+        },
+        {
+          "register": "w0043",
+          "circuit": "qf21_n15.qasm",
+          "qubits": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            96,
+            97,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "active_qubits": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            96,
+            97,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "isa_depth": 716,
+          "classical_bits": 10
+        },
+        {
+          "register": "w0023",
+          "circuit": "gcm_n13.qasm",
+          "qubits": [
+            75,
+            74,
+            73,
+            72,
+            71,
+            79,
             95,
             94,
             93,
             92,
-            79,
-            74,
-            73,
-            72
+            91,
+            99,
+            98
           ],
           "active_qubits": [
+            75,
+            74,
+            73,
+            72,
+            71,
+            79,
             95,
             94,
             93,
             92,
-            79,
-            74,
-            73,
-            72
+            91,
+            99,
+            98
           ],
-          "isa_depth": 21120,
-          "classical_bits": 8
+          "isa_depth": 2886,
+          "classical_bits": 1
         },
         {
-          "register": "w0069",
-          "circuit": "vqe_uccsd_n6.qasm",
+          "register": "w0026",
+          "circuit": "gcm_n13.qasm",
           "qubits": [
-            28,
-            27,
-            26,
-            17,
-            7,
-            6
+            55,
+            54,
+            53,
+            52,
+            51,
+            39,
+            35,
+            34,
+            33,
+            32,
+            31,
+            19,
+            18
           ],
           "active_qubits": [
-            28,
-            27,
-            26,
-            17,
-            7,
-            6
+            55,
+            54,
+            53,
+            52,
+            51,
+            39,
+            35,
+            34,
+            33,
+            32,
+            31,
+            19,
+            18
           ],
-          "isa_depth": 3720,
-          "classical_bits": 6
-        },
-        {
-          "register": "w0070",
-          "circuit": "vqe_uccsd_n6.qasm",
-          "qubits": [
-            64,
-            63,
-            62,
-            56,
-            44,
-            43
-          ],
-          "active_qubits": [
-            64,
-            63,
-            62,
-            56,
-            44,
-            43
-          ],
-          "isa_depth": 3720,
-          "classical_bits": 6
+          "isa_depth": 2886,
+          "classical_bits": 1
         }
       ]
     },
@@ -149,204 +245,116 @@
       "circuit": "../../compiled_circuits/Example/page_002.qpy",
       "workloads": [
         {
-          "register": "w0075",
-          "circuit": "gcm_n13.qasm",
+          "register": "w0044",
+          "circuit": "qf21_n15.qasm",
           "qubits": [
-            95,
-            94,
-            93,
-            92,
-            91,
-            79,
-            75,
-            74,
-            73,
-            72,
-            71,
-            59,
-            58
-          ],
-          "active_qubits": [
-            95,
-            94,
-            93,
-            92,
-            91,
-            79,
-            75,
-            74,
-            73,
-            72,
-            71,
-            59,
-            58
-          ],
-          "isa_depth": 2886,
-          "classical_bits": 1
-        },
-        {
-          "register": "w0076",
-          "circuit": "gcm_n13.qasm",
-          "qubits": [
-            123,
-            124,
-            125,
-            126,
-            127,
-            117,
             103,
             104,
             105,
             106,
             107,
-            96,
-            97
-          ],
-          "active_qubits": [
-            123,
+            108,
+            109,
+            117,
+            118,
             124,
             125,
             126,
             127,
-            117,
+            128,
+            129
+          ],
+          "active_qubits": [
             103,
             104,
             105,
             106,
             107,
-            96,
-            97
+            108,
+            109,
+            117,
+            118,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129
           ],
-          "isa_depth": 2886,
+          "isa_depth": 716,
+          "classical_bits": 10
+        },
+        {
+          "register": "w0024",
+          "circuit": "gcm_n13.qasm",
+          "qubits": [
+            39,
+            38,
+            53,
+            52,
+            51,
+            50,
+            49,
+            58,
+            73,
+            72,
+            71,
+            70,
+            69
+          ],
+          "active_qubits": [
+            39,
+            38,
+            53,
+            52,
+            51,
+            50,
+            49,
+            58,
+            73,
+            72,
+            71,
+            70,
+            69
+          ],
+          "isa_depth": 2948,
           "classical_bits": 1
         },
         {
-          "register": "w0064",
-          "circuit": "qf21_n15.qasm",
+          "register": "w0025",
+          "circuit": "gcm_n13.qasm",
           "qubits": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            56,
             61,
             62,
             63,
             64,
             65,
-            66,
-            67,
-            56,
-            57,
+            76,
+            77
+          ],
+          "active_qubits": [
+            41,
             42,
             43,
             44,
             45,
-            46,
-            47
-          ],
-          "active_qubits": [
+            56,
             61,
             62,
             63,
             64,
             65,
-            66,
-            67,
-            56,
-            57,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47
+            76,
+            77
           ],
-          "isa_depth": 716,
-          "classical_bits": 10
-        },
-        {
-          "register": "w0065",
-          "circuit": "qf21_n15.qasm",
-          "qubits": [
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            16,
-            17,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ],
-          "active_qubits": [
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            16,
-            17,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ],
-          "isa_depth": 716,
-          "classical_bits": 10
-        },
-        {
-          "register": "w0060",
-          "circuit": "hhl_n7.qasm",
-          "qubits": [
-            33,
-            34,
-            35,
-            19,
-            13,
-            14,
-            15
-          ],
-          "active_qubits": [
-            33,
-            34,
-            35,
-            19,
-            13,
-            14,
-            15
-          ],
-          "isa_depth": 539,
-          "classical_bits": 7
-        },
-        {
-          "register": "w0061",
-          "circuit": "hhl_n7.qasm",
-          "qubits": [
-            153,
-            154,
-            155,
-            139,
-            133,
-            134,
-            135
-          ],
-          "active_qubits": [
-            153,
-            154,
-            155,
-            139,
-            133,
-            134,
-            135
-          ],
-          "isa_depth": 539,
-          "classical_bits": 7
+          "isa_depth": 2886,
+          "classical_bits": 1
         }
       ]
     },
@@ -355,200 +363,206 @@
       "circuit": "../../compiled_circuits/Example/page_003.qpy",
       "workloads": [
         {
-          "register": "w0062",
-          "circuit": "hhl_n7.qasm",
+          "register": "w0045",
+          "circuit": "shor_n5.qasm",
           "qubits": [
-            33,
-            34,
-            35,
-            19,
-            13,
-            14,
-            15
+            124,
+            125,
+            117,
+            104,
+            105
           ],
           "active_qubits": [
-            33,
-            34,
-            35,
-            19,
-            13,
-            14,
-            15
+            124,
+            125,
+            117,
+            104,
+            105
           ],
-          "isa_depth": 539,
-          "classical_bits": 7
+          "isa_depth": 149,
+          "classical_bits": 5
         },
         {
-          "register": "w0078",
-          "circuit": "vqe_uccsd_n4.qasm",
+          "register": "w0046",
+          "circuit": "shor_n5.qasm",
           "qubits": [
-            138,
-            152,
-            151,
-            150
+            74,
+            73,
+            79,
+            94,
+            93
           ],
           "active_qubits": [
-            138,
-            152,
-            151,
-            150
+            74,
+            73,
+            79,
+            94,
+            93
           ],
-          "isa_depth": 373,
-          "classical_bits": 4
+          "isa_depth": 149,
+          "classical_bits": 5
+        },
+        {
+          "register": "w0047",
+          "circuit": "shor_n5.qasm",
+          "qubits": [
+            69,
+            68,
+            67,
+            66,
+            57
+          ],
+          "active_qubits": [
+            69,
+            68,
+            67,
+            66,
+            57
+          ],
+          "isa_depth": 150,
+          "classical_bits": 5
+        },
+        {
+          "register": "w0048",
+          "circuit": "shor_n5.qasm",
+          "qubits": [
+            34,
+            35,
+            19,
+            14,
+            15
+          ],
+          "active_qubits": [
+            34,
+            35,
+            19,
+            14,
+            15
+          ],
+          "isa_depth": 149,
+          "classical_bits": 5
         },
         {
           "register": "w0007",
-          "circuit": "adder_n10.qasm",
+          "circuit": "adder_n4.qasm",
           "qubits": [
-            107,
-            106,
-            105,
-            104,
-            103,
-            117,
-            127,
-            126,
-            125,
-            124
+            17,
+            26,
+            27,
+            28
           ],
           "active_qubits": [
-            107,
-            106,
-            105,
-            104,
-            103,
-            117,
-            127,
-            126,
-            125,
-            124
+            17,
+            26,
+            27,
+            28
           ],
-          "isa_depth": 351,
-          "classical_bits": 5
+          "isa_depth": 53,
+          "classical_bits": 4
         },
         {
           "register": "w0008",
-          "circuit": "adder_n10.qasm",
+          "circuit": "adder_n4.qasm",
           "qubits": [
-            95,
-            94,
-            93,
-            92,
-            91,
-            79,
-            74,
-            73,
-            72,
-            71
+            110,
+            109,
+            108,
+            118
           ],
           "active_qubits": [
-            95,
-            94,
-            93,
-            92,
-            91,
-            79,
-            74,
-            73,
-            72,
-            71
+            110,
+            109,
+            108,
+            118
           ],
-          "isa_depth": 357,
-          "classical_bits": 5
+          "isa_depth": 58,
+          "classical_bits": 4
         },
         {
-          "register": "w0025",
-          "circuit": "qpe_n9.qasm",
+          "register": "w0009",
+          "circuit": "adder_n4.qasm",
           "qubits": [
-            60,
-            61,
-            62,
-            63,
-            76,
-            80,
-            81,
-            82,
-            83
+            138,
+            150,
+            151,
+            152
           ],
           "active_qubits": [
-            60,
-            61,
-            62,
-            63,
-            76,
-            80,
-            81,
-            82,
-            83
+            138,
+            150,
+            151,
+            152
           ],
-          "isa_depth": 257,
-          "classical_bits": 6
+          "isa_depth": 53,
+          "classical_bits": 4
         },
         {
-          "register": "w0041",
-          "circuit": "qaoa_n6.qasm",
+          "register": "w0010",
+          "circuit": "adder_n4.qasm",
           "qubits": [
-            68,
-            67,
-            66,
-            57,
-            47,
-            46
-          ],
-          "active_qubits": [
-            68,
-            67,
-            66,
-            57,
-            47,
-            46
-          ],
-          "isa_depth": 185,
-          "classical_bits": 6
-        },
-        {
-          "register": "w0042",
-          "circuit": "qaoa_n6.qasm",
-          "qubits": [
-            28,
-            27,
-            26,
-            17,
-            7,
-            6
-          ],
-          "active_qubits": [
-            28,
-            27,
-            26,
-            17,
-            7,
-            6
-          ],
-          "isa_depth": 185,
-          "classical_bits": 6
-        },
-        {
-          "register": "w0043",
-          "circuit": "qaoa_n6.qasm",
-          "qubits": [
+            36,
             40,
             41,
-            42,
-            36,
-            21,
-            22
+            42
           ],
           "active_qubits": [
+            36,
             40,
             41,
-            42,
-            36,
-            21,
-            22
+            42
           ],
-          "isa_depth": 185,
-          "classical_bits": 6
+          "isa_depth": 53,
+          "classical_bits": 4
+        },
+        {
+          "register": "w0049",
+          "circuit": "variational_n4.qasm",
+          "qubits": [
+            76,
+            62,
+            61,
+            60
+          ],
+          "active_qubits": [
+            76,
+            62,
+            61,
+            60
+          ],
+          "isa_depth": 49,
+          "classical_bits": 4
+        },
+        {
+          "register": "w0016",
+          "circuit": "wstate_n3.qasm",
+          "qubits": [
+            16,
+            3,
+            2
+          ],
+          "active_qubits": [
+            16,
+            3,
+            2
+          ],
+          "isa_depth": 39,
+          "classical_bits": 3
+        },
+        {
+          "register": "w0021",
+          "circuit": "fredkin_n3.qasm",
+          "qubits": [
+            101,
+            116,
+            100
+          ],
+          "active_qubits": [
+            101,
+            116,
+            100
+          ],
+          "isa_depth": 45,
+          "classical_bits": 3
         }
       ]
     },
@@ -557,921 +571,39 @@
       "circuit": "../../compiled_circuits/Example/page_004.qpy",
       "workloads": [
         {
-          "register": "w0052",
-          "circuit": "ghz_state_n23.qasm",
+          "register": "w0022",
+          "circuit": "fredkin_n3.qasm",
           "qubits": [
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            16,
-            17,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9
-          ],
-          "active_qubits": [
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            16,
-            17,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9
-          ],
-          "isa_depth": 133,
-          "classical_bits": 46
-        },
-        {
-          "register": "w0053",
-          "circuit": "ghz_state_n23.qasm",
-          "qubits": [
-            80,
-            81,
-            82,
-            83,
-            84,
-            85,
-            86,
-            87,
-            88,
-            89,
-            90,
-            91,
-            96,
-            97,
-            101,
-            102,
-            103,
-            104,
-            105,
             106,
-            107,
-            108,
-            109
-          ],
-          "active_qubits": [
-            80,
-            81,
-            82,
-            83,
-            84,
-            85,
-            86,
-            87,
-            88,
-            89,
-            90,
-            91,
-            96,
-            97,
-            101,
-            102,
-            103,
-            104,
             105,
+            117
+          ],
+          "active_qubits": [
             106,
-            107,
-            108,
-            109
+            105,
+            117
           ],
-          "isa_depth": 133,
-          "classical_bits": 46
-        },
-        {
-          "register": "w0054",
-          "circuit": "cat_state_n22.qasm",
-          "qubits": [
-            74,
-            73,
-            72,
-            71,
-            70,
-            69,
-            68,
-            67,
-            66,
-            65,
-            64,
-            58,
-            57,
-            53,
-            52,
-            51,
-            50,
-            49,
-            48,
-            47,
-            46,
-            45
-          ],
-          "active_qubits": [
-            74,
-            73,
-            72,
-            71,
-            70,
-            69,
-            68,
-            67,
-            66,
-            65,
-            64,
-            58,
-            57,
-            53,
-            52,
-            51,
-            50,
-            49,
-            48,
-            47,
-            46,
-            45
-          ],
-          "isa_depth": 128,
-          "classical_bits": 44
-        },
-        {
-          "register": "w0080",
-          "circuit": "error_correctiond3_n5.qasm",
-          "qubits": [
-            14,
-            15,
-            19,
-            34,
-            35
-          ],
-          "active_qubits": [
-            14,
-            15,
-            19,
-            34,
-            35
-          ],
-          "isa_depth": 117,
-          "classical_bits": 5
-        },
-        {
-          "register": "w0074",
-          "circuit": "simon_n6.qasm",
-          "qubits": [
-            124,
-            123,
-            122,
-            136,
-            144,
-            143
-          ],
-          "active_qubits": [
-            124,
-            123,
-            122,
-            136,
-            144,
-            143
-          ],
-          "isa_depth": 93,
-          "classical_bits": 6
-        },
-        {
-          "register": "w0026",
-          "circuit": "vqe_n4.qasm",
-          "qubits": [
-            150,
-            151,
-            152,
-            138
-          ],
-          "active_qubits": [
-            150,
-            151,
-            152,
-            138
-          ],
-          "isa_depth": 61,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0038",
-          "circuit": "qaoa_n3.qasm",
-          "qubits": [
-            99,
-            115,
-            114
-          ],
-          "active_qubits": [
-            99,
-            115,
-            114
-          ],
-          "isa_depth": 39,
+          "isa_depth": 41,
           "classical_bits": 3
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "circuit": "../../compiled_circuits/Example/page_005.qpy",
-      "workloads": [
-        {
-          "register": "w0027",
-          "circuit": "vqe_n4.qasm",
-          "qubits": [
-            110,
-            109,
-            108,
-            118
-          ],
-          "active_qubits": [
-            110,
-            109,
-            108,
-            118
-          ],
-          "isa_depth": 61,
-          "classical_bits": 4
         },
         {
-          "register": "w0001",
-          "circuit": "qft_n4.qasm",
+          "register": "w0033",
+          "circuit": "linearsolver_n3.qasm",
           "qubits": [
-            66,
-            67,
             68,
-            57
+            69,
+            78
           ],
           "active_qubits": [
-            66,
-            67,
             68,
-            57
+            69,
+            78
           ],
-          "isa_depth": 55,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0002",
-          "circuit": "qft_n4.qasm",
-          "qubits": [
-            26,
-            27,
-            28,
-            17
-          ],
-          "active_qubits": [
-            26,
-            27,
-            28,
-            17
-          ],
-          "isa_depth": 55,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0003",
-          "circuit": "qft_n4.qasm",
-          "qubits": [
-            136,
-            124,
-            123,
-            122
-          ],
-          "active_qubits": [
-            136,
-            124,
-            123,
-            122
-          ],
-          "isa_depth": 73,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0004",
-          "circuit": "qft_n4.qasm",
-          "qubits": [
-            40,
-            41,
-            42,
-            36
-          ],
-          "active_qubits": [
-            40,
-            41,
-            42,
-            36
-          ],
-          "isa_depth": 55,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0005",
-          "circuit": "qft_n4.qasm",
-          "qubits": [
-            150,
-            151,
-            152,
-            138
-          ],
-          "active_qubits": [
-            150,
-            151,
-            152,
-            138
-          ],
-          "isa_depth": 55,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0006",
-          "circuit": "qft_n4.qasm",
-          "qubits": [
-            52,
-            53,
-            54,
-            39
-          ],
-          "active_qubits": [
-            52,
-            53,
-            54,
-            39
-          ],
-          "isa_depth": 55,
-          "classical_bits": 4
+          "isa_depth": 17,
+          "classical_bits": 3
         },
         {
           "register": "w0034",
-          "circuit": "adder_n4.qasm",
-          "qubits": [
-            79,
-            72,
-            73,
-            74
-          ],
-          "active_qubits": [
-            79,
-            72,
-            73,
-            74
-          ],
-          "isa_depth": 53,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0035",
-          "circuit": "adder_n4.qasm",
-          "qubits": [
-            76,
-            62,
-            61,
-            60
-          ],
-          "active_qubits": [
-            76,
-            62,
-            61,
-            60
-          ],
-          "isa_depth": 53,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0036",
-          "circuit": "adder_n4.qasm",
-          "qubits": [
-            96,
-            102,
-            103,
-            104
-          ],
-          "active_qubits": [
-            96,
-            102,
-            103,
-            104
-          ],
-          "isa_depth": 53,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0009",
-          "circuit": "fredkin_n3.qasm",
-          "qubits": [
-            19,
-            15,
-            14
-          ],
-          "active_qubits": [
-            19,
-            15,
-            14
-          ],
-          "isa_depth": 41,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0010",
-          "circuit": "fredkin_n3.qasm",
-          "qubits": [
-            2,
-            3,
-            16
-          ],
-          "active_qubits": [
-            2,
-            3,
-            16
-          ],
-          "isa_depth": 41,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0011",
-          "circuit": "fredkin_n3.qasm",
-          "qubits": [
-            114,
-            115,
-            99
-          ],
-          "active_qubits": [
-            114,
-            115,
-            99
-          ],
-          "isa_depth": 41,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0018",
-          "circuit": "dnn_n2.qasm",
-          "qubits": [
-            139,
-            155
-          ],
-          "active_qubits": [
-            139,
-            155
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "circuit": "../../compiled_circuits/Example/page_006.qpy",
-      "workloads": [
-        {
-          "register": "w0037",
-          "circuit": "adder_n4.qasm",
-          "qubits": [
-            117,
-            104,
-            105,
-            106
-          ],
-          "active_qubits": [
-            117,
-            104,
-            105,
-            106
-          ],
-          "isa_depth": 53,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0057",
-          "circuit": "variational_n4.qasm",
-          "qubits": [
-            57,
-            68,
-            67,
-            66
-          ],
-          "active_qubits": [
-            57,
-            68,
-            67,
-            66
-          ],
-          "isa_depth": 49,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0058",
-          "circuit": "variational_n4.qasm",
-          "qubits": [
-            36,
-            42,
-            41,
-            40
-          ],
-          "active_qubits": [
-            36,
-            42,
-            41,
-            40
-          ],
-          "isa_depth": 49,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0059",
-          "circuit": "variational_n4.qasm",
-          "qubits": [
-            17,
-            28,
-            27,
-            26
-          ],
-          "active_qubits": [
-            17,
-            28,
-            27,
-            26
-          ],
-          "isa_depth": 49,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0066",
-          "circuit": "qec_en_n5.qasm",
-          "qubits": [
-            90,
-            91,
-            98,
-            110,
-            111
-          ],
-          "active_qubits": [
-            90,
-            91,
-            98,
-            110,
-            111
-          ],
-          "isa_depth": 51,
-          "classical_bits": 5
-        },
-        {
-          "register": "w0067",
-          "circuit": "qec_en_n5.qasm",
-          "qubits": [
-            63,
-            62,
-            61,
-            60,
-            76
-          ],
-          "active_qubits": [
-            63,
-            62,
-            61,
-            60,
-            76
-          ],
-          "isa_depth": 41,
-          "classical_bits": 5
-        },
-        {
-          "register": "w0012",
-          "circuit": "fredkin_n3.qasm",
-          "qubits": [
-            144,
-            143,
-            136
-          ],
-          "active_qubits": [
-            144,
-            143,
-            136
-          ],
-          "isa_depth": 41,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0013",
-          "circuit": "fredkin_n3.qasm",
-          "qubits": [
-            19,
-            15,
-            14
-          ],
-          "active_qubits": [
-            19,
-            15,
-            14
-          ],
-          "isa_depth": 41,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0014",
-          "circuit": "fredkin_n3.qasm",
-          "qubits": [
-            2,
-            3,
-            16
-          ],
-          "active_qubits": [
-            2,
-            3,
-            16
-          ],
-          "isa_depth": 41,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0063",
-          "circuit": "toffoli_n3.qasm",
-          "qubits": [
-            94,
-            95,
-            99
-          ],
-          "active_qubits": [
-            94,
-            95,
-            99
-          ],
-          "isa_depth": 39,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0073",
-          "circuit": "wstate_n3.qasm",
-          "qubits": [
-            100,
-            101,
-            116
-          ],
-          "active_qubits": [
-            100,
-            101,
-            116
-          ],
-          "isa_depth": 39,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0044",
-          "circuit": "qec_sm_n5.qasm",
-          "qubits": [
-            74,
-            75,
-            59,
-            54,
-            55
-          ],
-          "active_qubits": [
-            74,
-            75,
-            59,
-            54,
-            55
-          ],
-          "isa_depth": 32,
-          "classical_bits": 5
-        },
-        {
-          "register": "w0045",
-          "circuit": "qec_sm_n5.qasm",
-          "qubits": [
-            149,
-            150,
-            151,
-            152,
-            138
-          ],
-          "active_qubits": [
-            149,
-            150,
-            151,
-            152,
-            138
-          ],
-          "isa_depth": 33,
-          "classical_bits": 5
-        },
-        {
-          "register": "w0015",
-          "circuit": "dnn_n2.qasm",
-          "qubits": [
-            58,
-            51
-          ],
-          "active_qubits": [
-            58,
-            51
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        },
-        {
-          "register": "w0016",
-          "circuit": "dnn_n2.qasm",
-          "qubits": [
-            139,
-            135
-          ],
-          "active_qubits": [
-            139,
-            135
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        },
-        {
-          "register": "w0017",
-          "circuit": "dnn_n2.qasm",
-          "qubits": [
-            11,
-            18
-          ],
-          "active_qubits": [
-            11,
-            18
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "circuit": "../../compiled_circuits/Example/page_007.qpy",
-      "workloads": [
-        {
-          "register": "w0077",
-          "circuit": "inverseqft_n4.qasm",
-          "qubits": [
-            118,
-            110,
-            109,
-            108
-          ],
-          "active_qubits": [
-            118,
-            110,
-            109,
-            108
-          ],
-          "isa_depth": 22,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0071",
-          "circuit": "cat_state_n4.qasm",
-          "qubits": [
-            40,
-            41,
-            42,
-            36
-          ],
-          "active_qubits": [
-            40,
-            41,
-            42,
-            36
-          ],
-          "isa_depth": 20,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0072",
-          "circuit": "cat_state_n4.qasm",
-          "qubits": [
-            60,
-            61,
-            62,
-            76
-          ],
-          "active_qubits": [
-            60,
-            61,
-            62,
-            76
-          ],
-          "isa_depth": 20,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0019",
-          "circuit": "dnn_n2.qasm",
-          "qubits": [
-            148,
-            149
-          ],
-          "active_qubits": [
-            148,
-            149
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        },
-        {
-          "register": "w0020",
-          "circuit": "dnn_n2.qasm",
-          "qubits": [
-            2,
-            1
-          ],
-          "active_qubits": [
-            2,
-            1
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        },
-        {
-          "register": "w0021",
-          "circuit": "dnn_n2.qasm",
-          "qubits": [
-            134,
-            133
-          ],
-          "active_qubits": [
-            134,
-            133
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        },
-        {
-          "register": "w0022",
-          "circuit": "quantumwalks_n2.qasm",
-          "qubits": [
-            155,
-            154
-          ],
-          "active_qubits": [
-            155,
-            154
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        },
-        {
-          "register": "w0023",
-          "circuit": "quantumwalks_n2.qasm",
-          "qubits": [
-            77,
-            85
-          ],
-          "active_qubits": [
-            77,
-            85
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        },
-        {
-          "register": "w0024",
-          "circuit": "quantumwalks_n2.qasm",
-          "qubits": [
-            115,
-            114
-          ],
-          "active_qubits": [
-            115,
-            114
-          ],
-          "isa_depth": 20,
-          "classical_bits": 2
-        },
-        {
-          "register": "w0079",
           "circuit": "linearsolver_n3.qasm",
           "qubits": [
             14,
@@ -1487,298 +619,504 @@
           "classical_bits": 3
         },
         {
-          "register": "w0068",
-          "circuit": "grover_n2.qasm",
+          "register": "w0035",
+          "circuit": "linearsolver_n3.qasm",
           "qubits": [
-            5,
-            6
+            64,
+            65,
+            77
           ],
           "active_qubits": [
-            5,
-            6
+            64,
+            65,
+            77
+          ],
+          "isa_depth": 17,
+          "classical_bits": 3
+        },
+        {
+          "register": "w0037",
+          "circuit": "qaoa_n3.qasm",
+          "qubits": [
+            143,
+            136,
+            144
+          ],
+          "active_qubits": [
+            143,
+            136,
+            144
+          ],
+          "isa_depth": 31,
+          "classical_bits": 3
+        },
+        {
+          "register": "w0038",
+          "circuit": "qaoa_n3.qasm",
+          "qubits": [
+            109,
+            118,
+            110
+          ],
+          "active_qubits": [
+            109,
+            118,
+            110
+          ],
+          "isa_depth": 31,
+          "classical_bits": 3
+        },
+        {
+          "register": "w0039",
+          "circuit": "teleportation_n3.qasm",
+          "qubits": [
+            36,
+            41,
+            40
+          ],
+          "active_qubits": [
+            36,
+            41,
+            40
+          ],
+          "isa_depth": 9,
+          "classical_bits": 3
+        },
+        {
+          "register": "w0040",
+          "circuit": "teleportation_n3.qasm",
+          "qubits": [
+            94,
+            93,
+            79
+          ],
+          "active_qubits": [
+            94,
+            93,
+            79
+          ],
+          "isa_depth": 9,
+          "classical_bits": 3
+        },
+        {
+          "register": "w0004",
+          "circuit": "deutsch_n2.qasm",
+          "qubits": [
+            148,
+            149
+          ],
+          "active_qubits": [
+            148,
+            149
+          ],
+          "isa_depth": 8,
+          "classical_bits": 2
+        },
+        {
+          "register": "w0005",
+          "circuit": "deutsch_n2.qasm",
+          "qubits": [
+            55,
+            59
+          ],
+          "active_qubits": [
+            55,
+            59
+          ],
+          "isa_depth": 8,
+          "classical_bits": 2
+        },
+        {
+          "register": "w0006",
+          "circuit": "deutsch_n2.qasm",
+          "qubits": [
+            6,
+            5
+          ],
+          "active_qubits": [
+            6,
+            5
+          ],
+          "isa_depth": 8,
+          "classical_bits": 2
+        },
+        {
+          "register": "w0017",
+          "circuit": "iswap_n2.qasm",
+          "qubits": [
+            60,
+            61
+          ],
+          "active_qubits": [
+            60,
+            61
+          ],
+          "isa_depth": 9,
+          "classical_bits": 2
+        },
+        {
+          "register": "w0018",
+          "circuit": "grover_n2.qasm",
+          "qubits": [
+            10,
+            9
+          ],
+          "active_qubits": [
+            10,
+            9
           ],
           "isa_depth": 10,
           "classical_bits": 2
         },
         {
-          "register": "w0046",
-          "circuit": "teleportation_n3.qasm",
+          "register": "w0019",
+          "circuit": "grover_n2.qasm",
           "qubits": [
-            59,
-            75,
-            74
+            80,
+            81
           ],
           "active_qubits": [
-            59,
-            75,
-            74
+            80,
+            81
           ],
-          "isa_depth": 9,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0047",
-          "circuit": "teleportation_n3.qasm",
-          "qubits": [
-            122,
-            123,
-            136
-          ],
-          "active_qubits": [
-            122,
-            123,
-            136
-          ],
-          "isa_depth": 9,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0048",
-          "circuit": "teleportation_n3.qasm",
-          "qubits": [
-            68,
-            69,
-            78
-          ],
-          "active_qubits": [
-            68,
-            69,
-            78
-          ],
-          "isa_depth": 9,
-          "classical_bits": 3
-        },
-        {
-          "register": "w0033",
-          "circuit": "iswap_n2.qasm",
-          "qubits": [
-            10,
-            9
-          ],
-          "active_qubits": [
-            10,
-            9
-          ],
-          "isa_depth": 9,
+          "isa_depth": 10,
           "classical_bits": 2
         },
         {
-          "register": "w0028",
-          "circuit": "bb84_n8.qasm",
+          "register": "w0020",
+          "circuit": "grover_n2.qasm",
           "qubits": [
-            27,
-            28,
-            29,
-            30,
-            38,
-            48,
-            49,
-            50
+            100,
+            101
           ],
           "active_qubits": [
-            27,
-            28,
-            29,
-            30,
-            38,
-            48,
-            49,
-            50
+            100,
+            101
           ],
-          "isa_depth": 8,
-          "classical_bits": 8
+          "isa_depth": 10,
+          "classical_bits": 2
         },
         {
-          "register": "w0039",
-          "circuit": "deutsch_n2.qasm",
+          "register": "w0027",
+          "circuit": "quantumwalks_n2.qasm",
           "qubits": [
-            101,
-            102
+            2,
+            1
           ],
           "active_qubits": [
-            101,
-            102
+            2,
+            1
           ],
-          "isa_depth": 8,
+          "isa_depth": 20,
           "classical_bits": 2
+        },
+        {
+          "register": "w0029",
+          "circuit": "quantumwalks_n2.qasm",
+          "qubits": [
+            134,
+            133
+          ],
+          "active_qubits": [
+            134,
+            133
+          ],
+          "isa_depth": 20,
+          "classical_bits": 2
+        },
+        {
+          "register": "w0030",
+          "circuit": "quantumwalks_n2.qasm",
+          "qubits": [
+            155,
+            154
+          ],
+          "active_qubits": [
+            155,
+            154
+          ],
+          "isa_depth": 20,
+          "classical_bits": 2
+        },
+        {
+          "register": "w0031",
+          "circuit": "dnn_n2.qasm",
+          "qubits": [
+            45,
+            44
+          ],
+          "active_qubits": [
+            45,
+            44
+          ],
+          "isa_depth": 20,
+          "classical_bits": 2
+        },
+        {
+          "register": "w0036",
+          "circuit": "lpn_n5.qasm",
+          "qubits": [
+            51,
+            50,
+            49,
+            48,
+            38
+          ],
+          "active_qubits": [
+            51,
+            50,
+            49,
+            48,
+            38
+          ],
+          "isa_depth": 18,
+          "classical_bits": 5
         }
       ]
     },
     {
-      "number": 8,
-      "circuit": "../../compiled_circuits/Example/page_008.qpy",
+      "number": 5,
+      "circuit": "../../compiled_circuits/Example/page_005.qpy",
       "workloads": [
         {
-          "register": "w0029",
-          "circuit": "bb84_n8.qasm",
-          "qubits": [
-            27,
-            28,
-            29,
-            30,
-            38,
-            48,
-            49,
-            50
-          ],
-          "active_qubits": [
-            27,
-            28,
-            29,
-            30,
-            38,
-            48,
-            49,
-            50
-          ],
-          "isa_depth": 8,
-          "classical_bits": 8
-        },
-        {
-          "register": "w0030",
-          "circuit": "bb84_n8.qasm",
-          "qubits": [
-            107,
-            108,
-            109,
-            110,
-            118,
-            128,
-            129,
-            130
-          ],
-          "active_qubits": [
-            107,
-            108,
-            109,
-            110,
-            118,
-            128,
-            129,
-            130
-          ],
-          "isa_depth": 8,
-          "classical_bits": 8
-        },
-        {
-          "register": "w0031",
-          "circuit": "bb84_n8.qasm",
-          "qubits": [
-            41,
-            42,
-            43,
-            44,
-            56,
-            62,
-            63,
-            64
-          ],
-          "active_qubits": [
-            41,
-            42,
-            43,
-            44,
-            56,
-            62,
-            63,
-            64
-          ],
-          "isa_depth": 8,
-          "classical_bits": 8
-        },
-        {
           "register": "w0032",
-          "circuit": "bb84_n8.qasm",
+          "circuit": "dnn_n2.qasm",
           "qubits": [
-            68,
-            69,
-            70,
-            71,
-            78,
-            88,
-            89,
-            90
+            55,
+            59
           ],
           "active_qubits": [
-            68,
-            69,
-            70,
-            71,
-            78,
-            88,
-            89,
-            90
+            55,
+            59
+          ],
+          "isa_depth": 20,
+          "classical_bits": 2
+        },
+        {
+          "register": "w0001",
+          "circuit": "bb84_n8.qasm",
+          "qubits": [
+            27,
+            28,
+            29,
+            30,
+            38,
+            48,
+            49,
+            50
+          ],
+          "active_qubits": [
+            27,
+            28,
+            29,
+            30,
+            38,
+            48,
+            49,
+            50
           ],
           "isa_depth": 8,
           "classical_bits": 8
         },
         {
-          "register": "w0040",
+          "register": "w0002",
+          "circuit": "bb84_n8.qasm",
+          "qubits": [
+            41,
+            42,
+            43,
+            44,
+            56,
+            62,
+            63,
+            64
+          ],
+          "active_qubits": [
+            41,
+            42,
+            43,
+            44,
+            56,
+            62,
+            63,
+            64
+          ],
+          "isa_depth": 8,
+          "classical_bits": 8
+        },
+        {
+          "register": "w0013",
+          "circuit": "qec_en_n5.qasm",
+          "qubits": [
+            105,
+            104,
+            103,
+            102,
+            96
+          ],
+          "active_qubits": [
+            105,
+            104,
+            103,
+            102,
+            96
+          ],
+          "isa_depth": 41,
+          "classical_bits": 5
+        },
+        {
+          "register": "w0014",
+          "circuit": "qec_en_n5.qasm",
+          "qubits": [
+            114,
+            115,
+            99,
+            94,
+            95
+          ],
+          "active_qubits": [
+            114,
+            115,
+            99,
+            94,
+            95
+          ],
+          "isa_depth": 51,
+          "classical_bits": 5
+        },
+        {
+          "register": "w0015",
+          "circuit": "qec_en_n5.qasm",
+          "qubits": [
+            91,
+            90,
+            89,
+            88,
+            78
+          ],
+          "active_qubits": [
+            91,
+            90,
+            89,
+            88,
+            78
+          ],
+          "isa_depth": 41,
+          "classical_bits": 5
+        },
+        {
+          "register": "w0050",
+          "circuit": "variational_n4.qasm",
+          "qubits": [
+            118,
+            108,
+            109,
+            110
+          ],
+          "active_qubits": [
+            118,
+            108,
+            109,
+            110
+          ],
+          "isa_depth": 49,
+          "classical_bits": 4
+        },
+        {
+          "register": "w0051",
+          "circuit": "variational_n4.qasm",
+          "qubits": [
+            136,
+            122,
+            123,
+            124
+          ],
+          "active_qubits": [
+            136,
+            122,
+            123,
+            124
+          ],
+          "isa_depth": 49,
+          "classical_bits": 4
+        },
+        {
+          "register": "w0052",
+          "circuit": "variational_n4.qasm",
+          "qubits": [
+            138,
+            152,
+            151,
+            150
+          ],
+          "active_qubits": [
+            138,
+            152,
+            151,
+            150
+          ],
+          "isa_depth": 49,
+          "classical_bits": 4
+        },
+        {
+          "register": "w0011",
+          "circuit": "toffoli_n3.qasm",
+          "qubits": [
+            14,
+            15,
+            19
+          ],
+          "active_qubits": [
+            14,
+            15,
+            19
+          ],
+          "isa_depth": 39,
+          "classical_bits": 3
+        },
+        {
+          "register": "w0012",
+          "circuit": "toffoli_n3.qasm",
+          "qubits": [
+            16,
+            3,
+            2
+          ],
+          "active_qubits": [
+            16,
+            3,
+            2
+          ],
+          "isa_depth": 39,
+          "classical_bits": 3
+        },
+        {
+          "register": "w0003",
           "circuit": "deutsch_n2.qasm",
           "qubits": [
-            148,
-            149
+            10,
+            9
           ],
           "active_qubits": [
-            148,
-            149
+            10,
+            9
           ],
           "isa_depth": 8,
           "classical_bits": 2
         },
         {
-          "register": "w0049",
-          "circuit": "qrng_n4.qasm",
+          "register": "w0028",
+          "circuit": "quantumwalks_n2.qasm",
           "qubits": [
-            122,
-            123,
-            124,
-            136
+            139,
+            155
           ],
           "active_qubits": [
-            122,
-            123,
-            124,
-            136
+            139,
+            155
           ],
-          "isa_depth": 4,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0050",
-          "circuit": "qrng_n4.qasm",
-          "qubits": [
-            2,
-            3,
-            4,
-            16
-          ],
-          "active_qubits": [
-            2,
-            3,
-            4,
-            16
-          ],
-          "isa_depth": 4,
-          "classical_bits": 4
-        },
-        {
-          "register": "w0051",
-          "circuit": "qrng_n4.qasm",
-          "qubits": [
-            96,
-            102,
-            103,
-            104
-          ],
-          "active_qubits": [
-            96,
-            102,
-            103,
-            104
-          ],
-          "isa_depth": 4,
-          "classical_bits": 4
+          "isa_depth": 20,
+          "classical_bits": 2
         }
       ]
     }
